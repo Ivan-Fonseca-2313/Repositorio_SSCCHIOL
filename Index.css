@@ -459,6 +459,49 @@ i {
     transform: translateX(3.75em) translateY(40.5em);
 }
 
+@media screen and (max-width: 1535px) { /*Fix de los clip paths cuando se hace un zoom de 150% en la resolución de 1920x1080*/
+        
+    .left-cp-1 {
+        transform: translateY(0);
+    }
+    
+    .left-cp-2 {
+        transform: translateY(0);
+    }
+    
+    .left-cp-3 {
+        transform: translateY(0);
+    }
+
+    .right-cp-1 {
+        transform: translateY(0);
+    }
+    
+    .right-cp-2 {
+        transform: translateY(0);
+    }
+    
+    .right-cp-3 {
+        transform: translateY(0);
+    }
+    
+    .testimonios-img-5 {
+        transform: translateX(-5.5em) translateY(29.125em);
+    }
+    
+    .testimonios-img-3 {
+        transform: translateX(-6.25em) translateY(49.5em);
+    }
+    
+    .testimonios-img-2 {
+        transform: translateX(4.8em) translateY(27.125em);
+    }
+    
+    .testimonios-img-6 {
+        transform: translateX(3.75em) translateY(47.5em);
+    }
+}
+
 .comentarios-left-container {
     display: flex;
     justify-content: space-around;
