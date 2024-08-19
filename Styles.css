@@ -550,7 +550,7 @@ i {
 
 .curiosidades {
     background-color: #758694;
-    padding-bottom: 30em;
+    padding-bottom: 9em;
 }
 
 .curiosidades__title-container {
@@ -788,3 +788,94 @@ i {
 }
 
 /*Final de la cuarta section (curiosidades)*/
+/*Comienzo del footer*/
+
+footer {
+    background-color: #153448;
+}
+
+.footer-container {
+    background-color: #153448;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-evenly;
+    height: 8em;
+}
+
+.img-p-container {
+    display: flex;
+    align-items: center;
+    max-width: 30em;
+}
+
+.footer__img {
+    height: 7em;
+    width: 7em;
+    margin-right: 1em;
+    user-select: none;
+}
+
+.footer__enlaces-container {
+    margin: auto 0;
+    width: 50%;
+}
+
+.footer__enlaces-list {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.footer__enlaces-interés {
+    color: #3a7197;
+    padding: .4em;
+    text-decoration: none;
+}
+
+.footer__enlaces-interés:hover {
+    text-decoration: underline;
+}
+
+
+.footer__promo {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__promo-text {
+    font-size: 1.4em;
+    color: #DFD0B8;
+}
+
+.footer__iconos-container {
+    display: flex;
+}
+
+.footer__iconos {
+    padding: .1em;
+    padding-top: .5em;
+    font-size: 1.5em;
+}
+
+.footer__separación {
+    background-color: #4681a8;
+    padding: 0;
+    height: 2px;
+    width: 93%;
+    margin: 0;
+    border: none;
+    margin: auto;
+}
+
+.bottom {
+    height: 3em;
+    background-color: #153448;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: .8em;
+    color: #777;
+}
