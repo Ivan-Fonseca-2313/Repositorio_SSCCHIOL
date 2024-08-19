@@ -1,5 +1,6 @@
 * {
     font-family: 'Oswald', Times, serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -878,4 +879,21 @@ footer {
     width: 100%;
     padding: .8em;
     color: #777;
+}
+
+/*Final del footer*/
+
+.top-button {
+    position: fixed;
+    right: 1.5em;
+    bottom: 1.5em;
+    background-color: #DFD0B8;
+    padding: 1em 1.2em;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.top-button__icon {
+    color: #405D72;
+    font-size: 3em;
 }
