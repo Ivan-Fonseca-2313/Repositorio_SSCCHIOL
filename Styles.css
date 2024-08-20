@@ -6,6 +6,7 @@
 body {
     background: radial-gradient(circle, #c2ced1, #EEEEEE);
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 /*Comienzo del nav*/
@@ -15,7 +16,7 @@ nav {
     align-items: center;
     background-color: #201E43;
     justify-content: flex-end;
-    max-width: 99.13vw;
+    width: 100vw;
 }
 
 .nav__img {
@@ -153,7 +154,7 @@ i {
 
 .title-vid-container {
     position: relative;
-    width: 99.13vw;
+    width: 100vw;
     background-color: #EEEEEE;
     height: 68.75em;
 }
@@ -301,7 +302,7 @@ i {
 .testimonios {
     background-color: #EEEEEE;
     padding-top: 3.75em;
-    width: 99.13vw;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -310,7 +311,7 @@ i {
     justify-content: space-around;
     align-items: center;
     height: 10.625em;
-    width: 99.13vw;
+    width: 100vw;
     margin-bottom: 6.875em;
 }
 
@@ -346,7 +347,7 @@ i {
 }
 
 .testimonios-container {
-    width: 99.13vw;
+    width: 100vw;
     overflow: hidden;
     height: 62.5em;
     position: absolute;
