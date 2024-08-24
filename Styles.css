@@ -835,6 +835,10 @@ footer {
     max-width: 30em;
 }
 
+.footer__small-name {
+    display: none;
+}
+
 .footer__img {
     height: 7em;
     width: 7em;
@@ -973,6 +977,7 @@ footer {
         height: 10.625em;
         width: 100vw;
         margin-bottom: 6.875em;
+        padding: 0;
     }
 
     .testimonios__title {
@@ -1620,9 +1625,7 @@ footer {
         top: 192.5em;
         display: flex;
     }
-}
 
-@media screen and (max-width:768px) {
     .testimonios-img-1 {
         transform: translateX(-5.9375em) translateY(3em);
     }
@@ -1770,6 +1773,37 @@ footer {
         text-shadow: 0.0625em 0.0625em 0.3125em #201E43;
         font-size: 1.5em;
     }
+
+    .testimonios__img {
+        height: 70em;
+        width: 85vw;
+        border-radius: 1.25em;
+        background-image: url(img/fondo-escuela-3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 3.125em auto;
+        filter: blur(0.3125em) opacity(0.8);
+        margin-bottom: 5em;
+    }
+
+    .testimonios-container {
+        width: 100vw;
+        overflow: hidden;
+        height: 70.5em;
+        position: absolute;
+        z-index: 1000;
+        top: 187.5em;
+        display: flex;
+    }
+
+    .comentario-4 {
+        transform: translateY(1em) translateX(1em);
+    }
+
+    .comentario-5 {
+        transform: translateY(-2em) translateX(-1em);
+    }
 }
 
 @media screen and (max-width:724px) {
@@ -1814,6 +1848,69 @@ footer {
         text-shadow: 0.0625em 0.0625em 0.3125em #201E43;
         font-size: 1.5em;
     }
+}
+
+@media screen and (max-width:640px) {
+.comentario-2 {
+    transform: translateY(0em) translateX(-3em);
+}
+
+.comentario-3 {
+    transform: translateY(-4.5em) translateX(0em);
+}
+
+.comentario-5 {
+    transform: translateY(-2em) translateX(2em);
+}
+
+.curiosidades__title-container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.curiosidades__title {
+    color: #F7E7DC;
+    font-size: 2.7em;
+    border-bottom: 5px solid #405D72;
+    padding-bottom: .2em;
+    user-select: none;
+}
+
+.curiosidades-container {
+    height: fit-content;
+    max-width: 90%;
+    margin: auto;
+    border-radius: .9em;
+    position: relative;
+    background-image: url();
+    margin-bottom: 0em;
+    overflow: hidden;
+}
+
+.curio__text-main-title {
+    font-size: 1.1em;
+    display: block;
+    padding: .5em 0;
+    color: #476072;
+}
+
+.curio__text-title {
+    font-size: 1em;
+    display: block;
+    padding: .5em 0;
+    color: #56748b;
+}
+
+.curiosidad {
+    font-size: 1.3em;
+}
+
+.frase-célebre-img-container {
+    color: #405D72;
+    font-size: 1.1em;
+}
 }
 
 @media screen and (max-width:600px) {
@@ -1882,6 +1979,194 @@ footer {
         margin-left: auto;
         font-size: 1.2em;
     }
+
+    
+.noticias__title {
+    color: #F7E7DC;
+    font-size: 2.5em;
+    text-shadow: 0 0 0.625em #9996b1;
+    padding: 0.625em;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+}
+
+.noticia-titular {
+    color: #405D72;
+    font-size: 1.7em;
+    padding: 0.4em;
+    padding-top: 1.1875em;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+}
+
+.testimonios__title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10.625em;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 0em;
+    padding: 0;
+}
+
+.testimonios__title {
+    color: #088395;
+    margin-left: 0;
+    font-size: 2.2em;
+    padding: 0.625em;
+    font-weight: 700;
+    user-select: none;
+    text-decoration: underline;
+    text-decoration-color: #201E43;
+    text-decoration-thickness: 0.2em;
+    line-height: 1.5em;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0.4em;
+    transform: translateY(-1em);
+    width: 100%;
+    text-align: center;
+}
+
+.testimonios-container {
+    width: 100vw;
+    overflow: hidden;
+    height: 70.5em;
+    display: flex;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    height: 75em;
+    width: 100vw;
+    margin-top: 3.125em;
+    margin-bottom: 10em;
+}
+
+.testimonios-container::before {
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(img/fondo-escuela-3.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px) opacity(.7) contrast(1.5);
+}
+
+.testimonios-container__img {
+    display: none;
+}
+
+.side-left__comentario {
+    transform: translate(0);
+    margin: 0;
+    height: fit-content;
+    width: 90%;
+}
+
+.side-right__comentario {
+    transform: translate(0);
+    margin: 0;
+    height: fit-content;
+    width: 90%;
+}
+
+.side-right {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.side-left {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comentarios-left-container {
+    display: flex;
+    text-align: justify;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    transform: translateY(0) translateX(0);
+}
+
+.comentarios-right-container {
+    display: flex;
+    text-align: justify;
+    height: 100%;
+    width: 100%;
+    transform: translateY(0) translateX(0);
+}
+
+.comentario-1, .comentario-3, .comentario-5{
+    margin-left: 1em;
+    align-self: flex-start;
+}
+
+.comentario-2, .comentario-4, .comentario-6 {
+    margin-right: 1em;
+    align-self: flex-end;
+}
+
+.testimonios__img {
+    display: none;
+}
+}
+
+@media screen and (max-width:549px) {
+
+    .footer-container {
+        height: 6em;
+    }
+
+    .footer__enlaces-interés {
+        font-size: 0.85em;
+    }
+
+    .footer__img {
+        height: 6em;
+        width: 6em;
+    }
+
+    .img-p-container {
+        display: flex;
+        align-items: center;
+        max-width: 30em;
+        font-size: .9em;
+    }
+
+    .footer__promo-text {
+        font-size: 1.3em;
+    }
+
+    .footer__iconos {
+        font-size: 1.3em;
+    }
+
+    .bottom {
+        height: auto;
+        background-color: #153448;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: .8em;
+        color: #777;
+        font-size: .8em;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -1931,6 +2216,37 @@ footer {
         margin-left: 3em;
         user-select: none;
     }
+
+    .curiosidades__title {
+        color: #F7E7DC;
+        font-size: 2.3em;
+        border-bottom: 5px solid #405D72;
+        padding-bottom: .2em;
+        user-select: none;
+    }
+    
+    .curio__text-main-title {
+        font-size: 1.1em;
+        display: block;
+        padding: .5em 0;
+        color: #476072;
+    }
+    
+    .curio__text-title {
+        font-size: 1em;
+        display: block;
+        padding: .5em 0;
+        color: #56748b;
+    }
+    
+    .curiosidad {
+        font-size: 1.3em;
+    }
+    
+    .frase-célebre-img-container {
+        color: #405D72;
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (max-width:454px) {
@@ -1976,6 +2292,93 @@ footer {
         transform: scale(1.05);
     }
 
+    
+.noticias__title-container {
+    border-bottom: 0.3125em solid #134B70;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding-top: 3.125em;
+    margin-bottom: 2.5em;
+}
+
+.noticias__title {
+    color: #F7E7DC;
+    font-size: 2.5em;
+    text-shadow: 0 0 0.625em #a09dbb;
+    padding: 0.3em;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+}
+
+.noticias__img {
+    width: 8em;
+    height: 8em;
+    float: none;
+    display: block;
+    border-radius: 0.625em;
+    margin-left: 0;
+    padding: 0;
+    margin: 1em auto;
+    margin-top: 0;
+    user-select: none;
+}
+
+.big-noticia-img {
+    transform: translateY(0);
+}
+
+
+.float-container {
+    font-size: 1.3em;
+    color: #F7E7DC;
+    text-align: center;
+    padding: 1em;
+}
+
+.big-noticia-float-container {
+    font-size: 1.3em;
+    color: #F7E7DC;
+    text-align: center;
+    padding: 1em;
+}
+
+.testimonios-container {
+    height: 100em;
+}
+}
+
+@media screen and (max-width:422px) {
+    .testimonios__title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 5.625em;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 0em;
+        padding: 0;
+    }
+    
+    .testimonios__title {
+        color: #088395;
+        margin-left: 0;
+        font-size: 2.1em;
+        padding: 0.625em;
+        font-weight: 700;
+        user-select: none;
+        text-decoration: underline;
+        text-decoration-color: #201E43;
+        text-decoration-thickness: 0.2em;
+        line-height: 1.5em;
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0.4em;
+        transform: translateY(-1em);
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:440px) {
@@ -2101,6 +2504,30 @@ footer {
         overflow: hidden;
         z-index: 100;
     }
+    
+    .noticias__title {
+        color: #F7E7DC;
+        font-size: 2.2em;
+        text-shadow: 0 0 0.625em #a8a5c2;
+        padding: 0.3em;
+        font-weight: 700;
+        text-align: center;
+        user-select: none;
+    }
+}
+
+@media screen and (max-width:391px) {
+.footer-container {
+        height: 8em;
+    }
+    
+.footer__enlaces-list {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: .1em;
+}
 }
 
 @media screen and (max-width:383px) {
@@ -2118,5 +2545,45 @@ footer {
 
     .nav__menu-desplegable-side-right {
         padding: 0;
+    }
+}
+
+@media screen and (max-width:376px) {
+
+    .noticias__title {
+        color: #F7E7DC;
+        font-size: 2.1em;
+        text-shadow: 0 0 0.625em #9693ad;
+        padding: 0.3em;
+        font-weight: 700;
+        text-align: center;
+        user-select: none;
+    }
+}
+
+
+@media screen and (max-width:367px) {
+    .footer__big-name {
+        display: none;
+    }
+
+    .footer__small-name {
+        display: inline;
+        font-size: 1.1em;
+    }
+
+    .footer__promo {
+        margin-top: 2.1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__promo-text {
+        font-size: 1.2em;
+    }
+
+    .footer__iconos {
+        font-size: 1.2em;
     }
 }
